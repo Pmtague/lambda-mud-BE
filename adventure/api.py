@@ -83,7 +83,9 @@ def map(request):
             'n_to': i.n_to,
             's_to': i.s_to,
             'e_to': i.e_to,
-            'w_to': i.w_to
+            'w_to': i.w_to,
+			'x': i.x,
+			'y': i.y
         }
         maps.append(room)
     # serial = serialize('json', rooms)
